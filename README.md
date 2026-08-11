@@ -1,6 +1,6 @@
-# PokeSurvive
-
 ![PokeSurvive Logo](PokeSurvive%20Logo.png)
+
+# PokeSurvive
 
 **Public Alpha — v0.1.0-alpha.1**
 
