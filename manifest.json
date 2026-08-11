@@ -1,0 +1,17 @@
+{
+  "id": "pokemon_survival",
+  "name": "PokeSurvive",
+  "version": "0.18.21-rc.2",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "overhaul",
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "category": "GAMEPLAY",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "incompatible": [],
+  "experimental": false,
+  "description": "Pre-alpha RC2: permadeath replay fix, cleaner mood-effect layout, and softer area-transition Adventure fallback."
+}
