@@ -2,8 +2,6 @@
 
 # PokeSurvive
 
-**Public Alpha — v0.1.0-alpha.1**
-
 PokeSurvive is a survival/roguelike gameplay overhaul for Pokémon Red running
 through Gen1Recomp. It turns a normal playthrough into a more unpredictable
 journey built around resource management, randomized runs, party personalities,
