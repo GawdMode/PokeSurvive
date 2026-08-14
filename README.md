@@ -23,13 +23,13 @@ camping, and permanent consequences.
 - Personality/mood effects that influence combat and exploration
 - Pokémon portrait presentation for party Adventure Events
 
-## Alpha Status
+## Beta Status
 
-This build is a release candidate for the first public alpha. Expect bugs,
+This build is currently in BETA. Expect bugs,
 balance issues, awkward event combinations, and systems that will continue to
 change.
 
-New runs are strongly recommended when moving between major alpha versions.
+New runs are strongly recommended when moving between major beta versions.
 Do not assume saves from development or older alpha builds will remain fully
 compatible.
 
@@ -50,7 +50,7 @@ will present its run configuration before normal play begins.
 The in-game **SURVIVE** menu shows Hunger, Energy, Mood, Morale, Pokémon
 personalities, food, camping, and the run's locked configuration.
 
-## Important Alpha Notes
+## Important Beta Notes
 
 - Randomized trainer teams preserve their original party sizes and levels.
 - The opening Oak rival battle keeps special starter/tutorial handling.
