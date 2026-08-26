@@ -2,385 +2,179 @@
 
 # PokeSurvive
 
-**PokeSurvive v1.0** is a survival/roguelike gameplay overhaul for classic Pokémon, supporting **Pokémon Red** and **Pokémon Gold** through their respective recompilation projects.
+**PokeSurvive v1.1.0.1** is a survival and roguelike gameplay overhaul for classic Pokémon, supporting **Pokémon Red, Pokémon Gold, and Pokémon Crystal** through Gen1Recomp.
 
-PokeSurvive transforms a normal Pokémon playthrough into a much more unpredictable journey built around survival, resource management, randomized worlds, Pokémon personalities, camping, exploration events, and permanent consequences.
+PokeSurvive transforms a normal Pokémon adventure into an unpredictable journey built around survival, resource management, randomized worlds, Pokémon personalities, camping, exploration events, and permanent consequences.
 
-Rather than simply shuffling Pokémon encounters, PokeSurvive is designed to make each seed feel like its own strange alternate version of the Pokémon world, where the journey between Gyms can matter just as much as the battles themselves.
+Rather than simply shuffling encounters, PokeSurvive is designed to make each seed feel like its own strange alternate Pokémon world, where the journey between Gyms can matter just as much as the battles themselves.
 
-## 🔴 Pokémon Red + 🟡 Pokémon Gold
+## 🔴 Red • 🟡 Gold • 💎 Crystal
 
-Beginning with **PokeSurvive v1.0.0**, Red and Gold are distributed together as a **single unified mod**.
+PokeSurvive is distributed as **one unified mod**.
 
-You do not need separate PokeSurvive installations.
+Install it once and PokeSurvive automatically loads the appropriate implementation for:
 
-Install PokeSurvive once and the mod automatically loads the appropriate implementation for the Pokémon game you're playing.
+- Pokémon Red
+- Pokémon Gold
+- Pokémon Crystal
 
-Both games share the core PokeSurvive experience, while certain systems remain game-specific where the underlying games provide meaningfully different mechanics.
+All three games share the core PokeSurvive experience, while Generation II includes additional mechanics built around Gold and Crystal's expanded systems.
 
-### 🔴 Pokémon Red
+## 🌲 Survival
 
-The original PokeSurvive experience, built for **Gen1Recomp**.
+Manage the journey itself, not just your Pokémon.
 
-Red includes the complete core survival, Personality, Adventure Event, Camping, Morale, randomizer, and run-management experience.
+- **Sustenance** and **Energy** survival meters
+- **Morale** that rises and falls with your experiences
+- Temporary **Moods** with gameplay effects
+- Camping, cooking, foraging, training, and other activities
+- Food, supplies, and permanent Survival Tools
+- Adventure Events while exploring
+- Optional **Permadeath**
+- Collapse from prolonged starvation and exhaustion
 
-### 🟡 Pokémon Gold
+Camping restores Energy but consumes time and resources, making when and where you stop part of the survival loop.
 
-Gold brings the PokeSurvive experience into Generation II and adds systems designed around Gold's expanded mechanics, including:
+## 🐾 Pokémon Personalities
 
-- Step-driven Game Time
-- Day/night integration
-- Randomized breeding and Eggs
-- Randomized Gift Eggs
-- Friendship integration
-- Pokégear and Mail-based Emergent Encounters
-- Generation II Survival Tools
-- Held-item trade evolution alternatives
+Pokémon can develop individual Personalities such as:
 
-## 🌲 Core Features
+**Loyal • Bold • Inquisitive • Lazy • Playful • Timid • Stubborn • Aggressive • Mischievous • Brainiac • Performer • Gentle**
 
-### Survival
-
-- Sustenance and Energy survival meters
-- Morale ranging from positive values into negative values
-- Temporary Mood system
-- Passive positive-Morale drift toward neutral
-- Camping and camp activities
-- Food and supply management
-- Survival Tools
-- Depleted collapse after prolonged starvation/exhaustion
-- Optional Permadeath
-
-### Pokémon Personalities
-
-Every eligible Pokémon can develop its own Personality:
-
-- Loyal
-- Bold
-- Inquisitive
-- Lazy
-- Playful
-- Timid
-- Stubborn
-- Aggressive
-- Mischievous
-- Brainiac
-- Performer
-- Gentle
-
-Personalities influence Pokémon behavior throughout the journey.
-
-They can affect:
+Personality affects how Pokémon behave during:
 
 - Checkups
-- Adventure Events
 - Camping
-- Interactions with other party members
+- Adventure Events
+- Party interactions
 - Flavor events
-- Mechanical outcomes
+- Certain mechanical outcomes
 
-This gives individual Pokémon an identity beyond their species and battle statistics.
+Use **CHECKUP** from the party menu to interact directly with your Pokémon and see how they respond.
 
-### Pokémon Checkups
+## 🗺️ Adventure Events
 
-**CHECKUP** allows you to interact directly with individual Pokémon from the party menu.
+Exploration can trigger contextual events involving your Pokémon and surroundings.
 
-A Pokémon's response depends on its Personality, and interactions can produce different dialogue, Morale changes, and occasional additional effects.
+Events can react to routes, forests, caves, towns, indoor locations, Surfing, party composition, Personality, survival conditions, and more.
 
-Pokémon may be affectionate, stubborn, mischievous, curious, lazy, aggressive, or simply uninterested in whatever you're trying to do.
+Outcomes may affect:
 
-Eggs do not participate in Checkups until they hatch.
-
-### Adventure Events
-
-Exploration can trigger contextual events involving your Pokémon.
-
-Events can react to environments including:
-
-- Routes
-- Forests
-- Caves
-- Towns and cities
-- Indoor locations
-- Surfing
-- Other special situations
-
-Adventure Events may involve a single Pokémon or interactions between multiple party members.
-
-Personality, environment, survival condition, party composition, and other circumstances can influence what happens.
-
-Outcomes can be beneficial, harmful, or purely flavorful and may affect:
-
-- Sustenance
-- Energy
+- Sustenance and Energy
 - Morale
 - Pokémon HP or status
+- Money and items
 - Supplies
-- Money
-- Items
-- Other aspects of the run
+- Relationships between party members
 
-### Camping
+Some events are helpful. Some are dangerous. Others just let your Pokémon be weird little guys.
 
-Camping provides a way to rest and interact with the survival system outside normal Pokémon Centers.
+## 🎲 Randomized Worlds
 
-Depending on available options and equipment, players can perform activities such as resting, foraging, cooking, training, spending time with Pokémon, tending to injuries, or preparing for the journey ahead.
+Every run can use a seed to create a consistent alternate Pokémon world.
 
-Camping can also trigger:
+Optional randomization includes:
 
-- Positive events
-- Negative events
-- Personality-specific events
-- Multi-Pokémon interactions
-- Survival-related events
-- Flavor encounters
+- Wild Pokémon
+- Starters
+- Pokémon types
+- Type-based sprite colors
+- Stats and stat distributions
+- Learnsets
+- TM/HM compatibility
+- Trainer parties
+- Gym teams
+- Gift Pokémon
+- Gen II breeding and Eggs
 
-Camping restores Energy but consumes time and resources, making when and how you camp part of the survival loop.
+Trainer Pokémon are generated individually rather than globally replacing every instance of a species.
 
-### ❤️ Morale
+Evolution families maintain logical progression, and evolved Pokémon can develop new secondary typings without completely losing their established identity.
 
-Morale represents the overall emotional state of the journey.
+### Special Pokémon Stay Special
 
-**0 Morale is neutral**, not a failure state.
+Major unique and story Pokémon are excluded from ordinary wild randomizer pools.
 
-Morale can rise through positive experiences and fall into negative values following genuine setbacks.
+You won't casually find Suicune on an early route before Crystal's Suicune storyline, for example.
 
-Positive Morale can be earned through activities such as:
+Their intended encounters remain intact, but their **typing, stats, moves, and colors can still be randomized**, making those encounters unique to each run.
 
-- Pokémon interactions
-- Camping
-- Adventure Events
-- Trainer victories
-- Other meaningful PokeSurvive systems
+## ☠️ Permadeath
 
-Wild Pokémon victories do **not** provide Morale, preventing low-level encounters from becoming an infinite Morale source.
+Permadeath can be enabled when starting a new adventure.
 
-Positive Morale gradually drifts back toward 0 as you travel. Very high values fade more quickly, while lower positive Morale lasts longer.
+Fainted Pokémon are permanently lost, turning team composition, supplies, survival conditions, and difficult battles into much larger decisions.
 
-Passive drift stops at 0 and cannot make Morale negative.
+Special protections exist where necessary to prevent scripted early-game situations from immediately destroying a run.
 
-## 🧭 SURVIVE Interface
+## 🔄 Trade-Free Evolutions
 
-Selecting **SURVIVE** from the pause menu opens a compact dashboard displaying:
+Pokémon that normally require trading can evolve without link trading.
+
+Basic trade evolutions receive a **Level 40 evolution alternative**.
+
+In Generation II, Pokémon that normally require trading while holding a specific item can evolve at Level 40 or higher while holding that item. The required item is consumed.
+
+## 🕐 Generation II Features
+
+Gold and Crystal include additional systems built around Generation II mechanics.
+
+### Game Time
+
+Optional **Game Time** ties the clock to exploration:
+
+- 10 steps = 1 in-game minute
+- 600 steps = 1 in-game hour
+- Camping advances time by 8 hours
+
+Morning, day, and night therefore progress as you travel and rest.
+
+### Breeding & Eggs
+
+Breeding participates in PokeSurvive's randomizer.
+
+Offspring can inherit and recombine characteristics from their parents, including species compatibility, typing, moves, palettes, and other randomized traits.
+
+Special Gift Eggs are randomized independently and can produce Pokémon unlike other members of the same species found elsewhere in the world.
+
+### Emergent Encounters
+
+Travelers may contact you through the **Pokégear**, or one of your Pokémon may discover strange **Mail**.
+
+These optional encounters send you to destinations around Johto where temporary NPCs, unusual situations, and randomized rewards await.
+
+There are no quest markers. Remember where you're going and get there before the opportunity expires.
+
+### Survival Tools
+
+Permanent Survival Tools provide alternatives for important field abilities corresponding to:
+
+**Cut • Fly • Surf • Strength • Flash • Whirlpool • Waterfall**
+
+Tools unlock alongside normal story/HM progression and do not bypass progression requirements.
+
+## 🧭 SURVIVE Menu
+
+Select **SURVIVE** from the pause menu to view:
 
 - Sustenance
 - Energy
 - Morale
 - Current Mood
 
-Quick access is provided to:
-
-- MENU
-- CAMP
-- SUPPLIES
-
-The full PokeSurvive menu provides access to additional information and systems including Personalities, Mood effects, survival information, and the Journal.
-
-## 🎲 Seeded Randomized Worlds
-
-PokeSurvive uses a run seed to create randomized worlds that remain internally consistent throughout a playthrough.
-
-Depending on the selected run settings, a seed can determine:
-
-- Wild Pokémon
-- Starter Pokémon
-- Pokémon types
-- Dual-type combinations
-- Type-based Pokémon colors
-- Stats and stat distributions
-- Learnsets
-- Move progression
-- TM/HM compatibility
-- Individual Trainer parties
-- Gym teams and specialties
-- Major Trainer rosters
-- Gift Pokémon
-- Breeding outcomes in Gold
-- Other randomized gameplay systems
-
-Trainer Pokémon are randomized individually rather than globally replacing every instance of a vanilla species.
-
-The active seed can be viewed from the in-game Journal, allowing interesting worlds to be shared and replayed.
-
-## 🎨 Randomized Pokémon
-
-PokeSurvive's randomizer goes substantially beyond replacing one species with another.
-
-Pokémon can receive:
-
-- Randomized species
-- One or two randomized types
-- Type-based color palettes
-- Randomized stat distributions
-- Type-aware randomized learnsets
-- Unusual coverage moves
-- Randomized TM/HM compatibility
-
-Evolution families preserve logical progression rather than completely rerolling a Pokémon's identity at each stage.
-
-Pokémon can gain a secondary type through evolution while retaining continuity with their earlier form.
-
-Starter Pokémon receive additional protection against unusable early-game movesets.
-
-HM moves are excluded from naturally generated level-up learnsets.
-
-## ⚔️ Randomized Trainers
-
-Trainer parties can be randomized independently.
-
-This includes:
-
-- Ordinary Trainers
-- Rivals
-- Gym Trainers
-- Gym Leaders
-- Other major battles
-
-Randomized parties preserve appropriate levels and party sizes while allowing each Trainer to receive an independently generated team.
-
-Important tutorial or scripted battles may receive special handling when necessary.
-
-## 🔄 Trade-Free Evolutions
-
-PokeSurvive removes link-trading roadblocks for Pokémon evolution.
-
-Pokémon that normally evolve through a basic trade can use PokeSurvive's **Level 40 evolution alternative**.
-
-In Pokémon Gold, Pokémon that normally require being traded while holding a particular evolution item can evolve at **Level 40 or higher while holding that item**.
-
-The required held item is consumed when the evolution succeeds.
-
-Everstone continues to prevent evolution normally.
-
-## 🟡 Pokémon Gold Features
-
-Gold contains several additional systems built specifically around Generation II.
-
-### 🕐 Step-Driven Game Time
-
-With **Game Time** enabled, Gold's clock progresses through exploration rather than being tied entirely to real-world time.
-
-- 10 steps = 1 in-game minute
-- 600 steps = 1 in-game hour
-- Camping advances time by 8 hours
-- Gold's normal morning, day, and night systems respond to the resulting time
-
-Traveling and resting can therefore determine what time of day you reach the next area.
-
-### 🥚 Expanded Breeding Randomizer
-
-Pokémon breeding participates in PokeSurvive's randomizer.
-
-Breeding families remain compatible with their normal families, but offspring can inherit and recombine characteristics from their parents.
-
-Depending on the parents and run seed, offspring can:
-
-- Be either compatible parent species
-- Inherit one or two types drawn from their parents
-- Produce new combinations of inherited types
-- Receive an individualized palette
-- Generate a type-aware randomized learnset
-- Receive randomized TM/HM compatibility
-- Inherit appropriate moves
-
-This allows offspring to be meaningfully different from both their parents and other members of the same species.
-
-Egg identities remain hidden from Personality, Checkup, Camping, and Adventure Event systems until they hatch.
-
-### 🎁 Randomized Gift Eggs
-
-Scripted NPC Eggs participate in the randomizer independently.
-
-After hatching, a Gift Egg Pokémon can have its own:
-
-- Species
-- Typing
-- Palette
-- Stats
-- Stat distribution
-- Learnset
-- TM/HM compatibility
-- Personality
-
-A Pokémon encountered in the wild can therefore be very different from the same species obtained through a special Egg.
-
-### ✉️ Emergent Encounters
-
-Gold's **Emergent Encounters** create optional miniature journeys while exploring Johto.
-
-A traveler may contact you through the **Pokégear**, or one of your Pokémon may discover a strange piece of **Mail**.
-
-The message provides a destination where someone wants to meet you.
-
-Emergent Encounters can:
-
-- Send you several areas away
-- Expire if you take too long
-- Dynamically place a traveler at the destination
-- Feature different traveler archetypes
-- Use different dialogue and situations
-- Give Pokémon actual readable held Mail
-- Use multiple Mail stationery designs
-- Provide randomized rewards
-
-Possible rewards include:
-
-- Money
-- Morale
-- Valuables
-- Evolution items
-- Vitamins
-- Held items
-- Battle supplies
-- Other useful finds
-
-There is deliberately no quest marker.
-
-Remember the destination, decide whether the detour is worth making, and reach the traveler before the opportunity disappears.
-
-### 🧰 Survival Tools
-
-Gold's Supplies system includes permanent Survival Tools that provide alternatives for important field abilities.
-
-Tools correspond to:
-
-- Cut
-- Fly
-- Surf
-- Strength
-- Flash
-- Whirlpool
-- Waterfall
-
-These unlock alongside their corresponding HM/story progression.
-
-Survival Tools do not bypass the normal progression requirements for those abilities.
+The interface also provides access to Camping, Supplies, Personalities, survival information, and the Journal.
 
 ## 📓 Journal
 
-The PokeSurvive Journal records information about the current journey, including the active run seed and notable run information.
+The Journal records information about your current journey, including your active randomizer seed.
 
-Seeds can be shared with other players to reproduce interesting randomized worlds.
+Share a seed with another player to explore the same randomized world.
 
-## Installation
+## 🚀 Starting a Run
 
-Download the latest **PokeSurvive unified release** and install the `pokesurvive` mod folder using the mod-loading system supported by the recompilation project you're playing.
+Start a **New Game** normally.
 
-The same PokeSurvive package supports both Pokémon Red and Pokémon Gold.
-
-If upgrading from one of the older separate Red or Gold versions of PokeSurvive, a clean replacement of the old PokeSurvive installation is recommended if your launcher does not automatically replace it.
-
-PokeSurvive does **not** include Pokémon ROMs or copyrighted game data.
-
-Users must provide any legally required game files separately.
-
-## Starting a Run
-
-Start a **New Game** and proceed through the opening sequence.
-
-Before beginning the adventure, PokeSurvive presents its run configuration screen.
-
-Available options depend on the game and current version and can include:
+Before your adventure begins, PokeSurvive presents its run configuration options. Depending on the game and version, these can include:
 
 - Survival Mode
 - Game Time
@@ -391,65 +185,47 @@ Available options depend on the game and current version and can include:
 - Random Moves
 - Random Trainers
 
-Run options are locked once the adventure begins.
+Run settings are locked once the adventure begins.
 
-The in-game **SURVIVE** interface provides access to survival information, Camping, Supplies, Personalities, the Journal, and other PokeSurvive systems.
+## 📦 Installation
 
-## Compatibility & Known Limitations
+Download the latest unified PokeSurvive release and install the `pokesurvive` folder using the Gen1Recomp mod-loading system.
 
-PokeSurvive is a substantial gameplay overhaul and modifies many parts of the underlying game.
+**One installation supports Pokémon Red, Gold, and Crystal.**
 
-Compatibility with arbitrary third-party mods cannot be guaranteed.
+When upgrading from an older PokeSurvive version, replace the previous installation rather than keeping multiple versions installed simultaneously.
 
-If you encounter a problem while using multiple mods, first try reproducing the issue with PokeSurvive enabled by itself. If the issue disappears, it is likely a mod compatibility conflict rather than a PokeSurvive-specific bug.
+PokeSurvive does **not** include Pokémon ROMs or copyrighted game data. Users must provide any legally required game files separately.
 
-Because PokeSurvive's randomizer can generate combinations that would never occur during a normal Pokémon playthrough, testing every possible seed, Pokémon, Trainer, event, and mechanical interaction is effectively impossible.
+## ⚠️ Compatibility
 
-Bug reports and unusual edge cases are always welcome.
+PokeSurvive modifies many parts of the underlying games, so compatibility with arbitrary third-party mods cannot be guaranteed.
+
+If you encounter a problem while using multiple mods, try reproducing it with only PokeSurvive enabled.
+
+Randomization can create an enormous number of Pokémon, Trainer, event, breeding, and seed combinations. Testing every possible combination is impossible, so bug reports and strange edge cases are always welcome.
 
 Save compatibility across major future versions is not guaranteed.
 
-## Important Notes
-
-- Randomized Trainer teams preserve appropriate party sizes and levels.
-- Trainer Pokémon are randomized individually.
-- Important scripted and tutorial battles may receive special handling.
-- Evolution families preserve logical randomized progression.
-- Pokémon can gain a secondary type through evolution without completely rerolling their established identity.
-- Starter Pokémon are protected against unusable early-game movesets.
-- HM moves are excluded from naturally generated level-up learnsets.
-- Gold Eggs remain Eggs for PokeSurvive interaction systems until they hatch.
-- Optional Permadeath can end a run if the player's party is lost.
-- Some systems intentionally differ between Red and Gold where the underlying games provide different mechanics.
-- Emergent Encounters are Gold-only because they are built around the Pokégear and Mail systems.
-
 ## 🐛 Bug Reports
 
-When reporting a problem, please include:
+Helpful reports include:
 
 1. PokeSurvive version
-2. Pokémon game (Red or Gold)
-3. Recomp version/build
-4. Whether the save began on the current PokeSurvive version
-5. Run seed, if using randomized features
-6. Enabled run settings
-7. What you expected to happen
-8. What actually happened
-9. Steps to reproduce, if known
-10. Screenshots/video and logs when available
+2. Pokémon game: Red, Gold, or Crystal
+3. Gen1Recomp version
+4. Run seed
+5. Enabled run settings
+6. What happened and what you expected
+7. Steps to reproduce
+8. Screenshots, video, or logs when available
 
-Randomizer bugs are especially helpful when accompanied by the **run seed** and the Pokémon, Trainer, Egg, or event involved.
+If you're using additional mods, please mention them.
 
-If you're running additional mods, please mention them in the report.
+## ❤️ Thanks
 
-## Development & Support
+PokeSurvive started as an experiment in making the journey through Pokémon matter as much as the battles. It has since grown into a unified survival overhaul spanning three classic Pokémon games.
 
-**PokeSurvive v1.0.0** represents the first complete unified release of PokeSurvive.
+Thanks to everyone who has played, tested, reported bugs, suggested ideas, shared runs, made videos, or otherwise helped shape the mod.
 
-Development does not end at 1.0. Bugs will continue to be fixed, balance can continue to be refined, and future improvements may still be added.
-
-The focus after 1.0 is stability, polish, compatibility, and responding to community feedback rather than treating the project as an unfinished beta.
-
-Thanks to everyone who has tested PokeSurvive, reported bugs, suggested ideas, shared runs, created videos, or simply played the mod.
-
-Have fun surviving!
+**Have fun surviving!**
