@@ -207,6 +207,24 @@ Randomization can create an enormous number of Pokémon, Trainer, event, breedin
 
 Save compatibility across major future versions is not guaranteed.
 
+PokeSurvive v1.1.1+ includes compatibility support for **[Battle Factory Remix](https://github.com/GawdMode/Battle-Factory-Remix)**, a separate Pokémon Recomp mod that adds an expanded rental-based Battle Factory experience to Pokémon Red and Pokémon Crystal.
+
+Battle Factory Remix can be installed and played without PokeSurvive. When both mods are enabled, PokeSurvive automatically recognizes Battle Factory battles and temporary rental Pokémon so its survival and randomizer systems do not interfere with the Factory.
+
+This includes safeguards for:
+
+- Temporary Battle Factory rental Pokémon
+- Factory trainer teams and randomized opponents
+- PokeSurvive's Pokémon randomizer
+- Nuzlocke/permadeath behavior
+- Survival meter drain during Factory battles
+- Morale and Mood consequences
+- Factory-specific randomized Pokémon types and palettes
+
+Battle Factory Remix maintains its own progression, BP economy, rental generation, and temporary Pokémon state independently from your PokeSurvive run.
+
+**Battle Factory Remix is optional and is distributed separately.**
+
 ## 🐛 Bug Reports
 
 Helpful reports include:
