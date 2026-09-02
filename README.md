@@ -225,7 +225,7 @@ Battle Factory Remix maintains its own progression, BP economy, rental generatio
 
 **Battle Factory Remix is optional and is distributed separately.**
 
-PokeSurvive v1.3.0+ includes compatibility support for **[Angler's Cove Aquarium](https://github.com/GawdMode/anglers-cove-aquarium)**, a separate Pokémon Recomp mod that adds a new fishing system and aquarium tank shop to Cerulean City.
+PokeSurvive v1.2.0+ includes compatibility support for **[Angler's Cove Aquarium](https://github.com/GawdMode/anglers-cove-aquarium)**, a separate Pokémon Recomp mod that adds a new fishing system and aquarium tank shop to Cerulean City.
 
 Angler's Cove Aquarium can be installed and played without PokeSurvive. When both mods are enabled, PokeSurvive automatically recognizes Angler's Cove Aquarium and allows the following:
 
