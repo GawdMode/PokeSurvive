@@ -225,6 +225,19 @@ Battle Factory Remix maintains its own progression, BP economy, rental generatio
 
 **Battle Factory Remix is optional and is distributed separately.**
 
+PokeSurvive v1.3.0+ includes compatibility support for **[Angler's Cove Aquarium](https://github.com/GawdMode/anglers-cove-aquarium)**, a separate Pokémon Recomp mod that adds a new fishing system and aquarium tank shop to Cerulean City.
+
+Angler's Cove Aquarium can be installed and played without PokeSurvive. When both mods are enabled, PokeSurvive automatically recognizes Angler's Cove Aquarium and allows the following:
+
+- Angler's Cove Aquarium integration for Crystal
+- Randomized fishing species can be caught through Fishing 2.0 and deposited into the aquarium.
+- Randomized Pokémon use Crystal menu-icon art and generic swimming profiles when they do not have a curated aquatic profile.
+- Randomized type palettes carry into Fishing 2.0 and the aquarium while preserving black outlines.
+- Fishing outcomes can drain PokeSurvive Energy.
+- New Fishy mood integration, including its custom thought bubble, a small Fishing 2.0 attraction-radius bonus, and increased ordinary encounter pressure. Watching the aquarium or fishing can occasionally trigger the Fishy mood.
+
+**Angler's Cove Aquarium is optional and is distributed separately.**
+
 ## 🐛 Bug Reports
 
 Helpful reports include:
