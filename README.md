@@ -259,4 +259,6 @@ PokeSurvive started as an experiment in making the journey through Pokémon matt
 
 Thanks to everyone who has played, tested, reported bugs, suggested ideas, shared runs, made videos, or otherwise helped shape the mod.
 
-**Have fun surviving!**
+## More Mods
+
+Check out my other [Pokémon mods and projects](https://github.com/GawdMode) on GitHub!
