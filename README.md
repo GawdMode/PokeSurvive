@@ -262,7 +262,3 @@ If you're using additional mods, please mention them.
 PokeSurvive started as an experiment in making the journey through Pokémon matter as much as the battles. It has since grown into a unified survival overhaul spanning three classic Pokémon games.
 
 Thanks to everyone who has played, tested, reported bugs, suggested ideas, shared runs, made videos, or otherwise helped shape the mod.
-
-## More Mods
-
-Check out my other [Pokémon mods and projects](https://github.com/GawdMode) on GitHub!
