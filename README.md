@@ -1,4 +1,8 @@
-![PokeSurvive Logo](PokeSurvive%20Logo.png)
+<p align="center">
+  <a href="https://gawdmode.github.io/">
+    <img src="assets/checkoutmyothermods.png" alt="Check out all of my other Gen1Recomp mods">
+  </a>
+</p>
 
 # PokeSurvive
 
